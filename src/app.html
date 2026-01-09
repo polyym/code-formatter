@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-GB">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Code formatter for JavaScript, JSX, TypeScript, and TSX with diff view and configurable options. Format your code instantly with Prettier." />
+		<meta name="keywords" content="code formatter, prettier, javascript, typescript, jsx, tsx, code beautifier, online formatter" />
+		<meta name="author" content="polyym" />
+		<meta name="theme-color" content="#0f0c29" />
+
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://code-formatter.netlify.app/" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Code Formatter - Format JS, TS, JSX, TSX instantly" />
+		<meta property="og:description" content="Free online code formatter for JavaScript, JSX, TypeScript, and TSX. Features diff view, configurable options, and syntax highlighting." />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Code Formatter - Format JS, TS, JSX, TSX instantly" />
+		<meta name="twitter:description" content="Free online code formatter for JavaScript, JSX, TypeScript, and TSX. Features diff view, configurable options, and syntax highlighting." />
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+		<!-- PWA Manifest -->
+		<link rel="manifest" href="/manifest.json" />
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+		<script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/sw.js');
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+{
+	"name": "Code Formatter - JavaScript, TypeScript, JSX, TSX",
+	"short_name": "Code Formatter",
+	"description": "Free online code formatter for JavaScript, JSX, TypeScript, and TSX. Powered by Prettier.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#0f0c29",
+	"theme_color": "#0f0c29",
+	"icons": [
+		{
+			"src": "/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any maskable"
+		}
+	],
+	"categories": ["developer tools", "utilities"],
+	"lang": "en-GB",
+	"dir": "ltr"
+}
