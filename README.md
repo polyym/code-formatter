@@ -94,10 +94,6 @@ static/
   sitemap.xml      # SEO sitemap
 ```
 
-## License
-
-MIT
-
 ## Version
 
 1.0.0
